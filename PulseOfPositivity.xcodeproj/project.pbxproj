@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		363E197E2E5A58960066587C /* PulseOfPositivity Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 363E197D2E5A58960066587C /* PulseOfPositivity Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		363E197F2E5A58960066587C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 363E19712E5A58960066587C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 363E197C2E5A58960066587C;
+			remoteInfo = "PulseOfPositivity Watch App";
+		};
+		363E198D2E5A58970066587C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 363E19712E5A58960066587C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 363E197C2E5A58960066587C;
+			remoteInfo = "PulseOfPositivity Watch App";
+		};
+		363E19972E5A58970066587C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 363E19712E5A58960066587C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 363E197C2E5A58960066587C;
+			remoteInfo = "PulseOfPositivity Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		363E19A32E5A58970066587C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				363E197E2E5A58960066587C /* PulseOfPositivity Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		363E19772E5A58960066587C /* PulseOfPositivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseOfPositivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		363E197D2E5A58960066587C /* PulseOfPositivity Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PulseOfPositivity Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		363E198C2E5A58970066587C /* PulseOfPositivity Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PulseOfPositivity Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		363E19962E5A58970066587C /* PulseOfPositivity Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PulseOfPositivity Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		363E19812E5A58960066587C /* PulseOfPositivity Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PulseOfPositivity Watch App";
+			sourceTree = "<group>";
+		};
+		363E198F2E5A58970066587C /* PulseOfPositivity Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PulseOfPositivity Watch AppTests";
+			sourceTree = "<group>";
+		};
+		363E19992E5A58970066587C /* PulseOfPositivity Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PulseOfPositivity Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		363E197A2E5A58960066587C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363E19892E5A58970066587C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363E19932E5A58970066587C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		363E19702E5A58960066587C = {
+			isa = PBXGroup;
+			children = (
+				363E19812E5A58960066587C /* PulseOfPositivity Watch App */,
+				363E198F2E5A58970066587C /* PulseOfPositivity Watch AppTests */,
+				363E19992E5A58970066587C /* PulseOfPositivity Watch AppUITests */,
+				363E19782E5A58960066587C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		363E19782E5A58960066587C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				363E19772E5A58960066587C /* PulseOfPositivity.app */,
+				363E197D2E5A58960066587C /* PulseOfPositivity Watch App.app */,
+				363E198C2E5A58970066587C /* PulseOfPositivity Watch AppTests.xctest */,
+				363E19962E5A58970066587C /* PulseOfPositivity Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		363E19762E5A58960066587C /* PulseOfPositivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363E19A42E5A58970066587C /* Build configuration list for PBXNativeTarget "PulseOfPositivity" */;
+			buildPhases = (
+				363E19752E5A58960066587C /* Resources */,
+				363E19A32E5A58970066587C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				363E19802E5A58960066587C /* PBXTargetDependency */,
+			);
+			name = PulseOfPositivity;
+			packageProductDependencies = (
+			);
+			productName = PulseOfPositivity;
+			productReference = 363E19772E5A58960066587C /* PulseOfPositivity.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		363E197C2E5A58960066587C /* PulseOfPositivity Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363E19A02E5A58970066587C /* Build configuration list for PBXNativeTarget "PulseOfPositivity Watch App" */;
+			buildPhases = (
+				363E19792E5A58960066587C /* Sources */,
+				363E197A2E5A58960066587C /* Frameworks */,
+				363E197B2E5A58960066587C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				363E19812E5A58960066587C /* PulseOfPositivity Watch App */,
+			);
+			name = "PulseOfPositivity Watch App";
+			packageProductDependencies = (
+			);
+			productName = "PulseOfPositivity Watch App";
+			productReference = 363E197D2E5A58960066587C /* PulseOfPositivity Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		363E198B2E5A58970066587C /* PulseOfPositivity Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363E19A72E5A58970066587C /* Build configuration list for PBXNativeTarget "PulseOfPositivity Watch AppTests" */;
+			buildPhases = (
+				363E19882E5A58970066587C /* Sources */,
+				363E19892E5A58970066587C /* Frameworks */,
+				363E198A2E5A58970066587C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				363E198E2E5A58970066587C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				363E198F2E5A58970066587C /* PulseOfPositivity Watch AppTests */,
+			);
+			name = "PulseOfPositivity Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "PulseOfPositivity Watch AppTests";
+			productReference = 363E198C2E5A58970066587C /* PulseOfPositivity Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		363E19952E5A58970066587C /* PulseOfPositivity Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363E19AA2E5A58970066587C /* Build configuration list for PBXNativeTarget "PulseOfPositivity Watch AppUITests" */;
+			buildPhases = (
+				363E19922E5A58970066587C /* Sources */,
+				363E19932E5A58970066587C /* Frameworks */,
+				363E19942E5A58970066587C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				363E19982E5A58970066587C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				363E19992E5A58970066587C /* PulseOfPositivity Watch AppUITests */,
+			);
+			name = "PulseOfPositivity Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "PulseOfPositivity Watch AppUITests";
+			productReference = 363E19962E5A58970066587C /* PulseOfPositivity Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		363E19712E5A58960066587C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					363E19762E5A58960066587C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					363E197C2E5A58960066587C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					363E198B2E5A58970066587C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 363E197C2E5A58960066587C;
+					};
+					363E19952E5A58970066587C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 363E197C2E5A58960066587C;
+					};
+				};
+			};
+			buildConfigurationList = 363E19742E5A58960066587C /* Build configuration list for PBXProject "PulseOfPositivity" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 363E19702E5A58960066587C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 363E19782E5A58960066587C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				363E19762E5A58960066587C /* PulseOfPositivity */,
+				363E197C2E5A58960066587C /* PulseOfPositivity Watch App */,
+				363E198B2E5A58970066587C /* PulseOfPositivity Watch AppTests */,
+				363E19952E5A58970066587C /* PulseOfPositivity Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		363E19752E5A58960066587C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363E197B2E5A58960066587C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363E198A2E5A58970066587C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363E19942E5A58970066587C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		363E19792E5A58960066587C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363E19882E5A58970066587C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363E19922E5A58970066587C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		363E19802E5A58960066587C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 363E197C2E5A58960066587C /* PulseOfPositivity Watch App */;
+			targetProxy = 363E197F2E5A58960066587C /* PBXContainerItemProxy */;
+		};
+		363E198E2E5A58970066587C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 363E197C2E5A58960066587C /* PulseOfPositivity Watch App */;
+			targetProxy = 363E198D2E5A58970066587C /* PBXContainerItemProxy */;
+		};
+		363E19982E5A58970066587C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 363E197C2E5A58960066587C /* PulseOfPositivity Watch App */;
+			targetProxy = 363E19972E5A58970066587C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		363E199E2E5A58970066587C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T6MM9C55HN;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		363E199F2E5A58970066587C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T6MM9C55HN;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		363E19A12E5A58970066587C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM9C55HN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseOfPositivity;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ikirsten.PulseOfPositivity.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		363E19A22E5A58970066587C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM9C55HN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseOfPositivity;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ikirsten.PulseOfPositivity.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		363E19A52E5A58970066587C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM9C55HN;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseOfPositivity;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ikirsten.PulseOfPositivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		363E19A62E5A58970066587C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM9C55HN;
+				INFOPLIST_KEY_CFBundleDisplayName = PulseOfPositivity;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ikirsten.PulseOfPositivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		363E19A82E5A58970066587C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM9C55HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ikirsten.PulseOfPositivity-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseOfPositivity Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseOfPositivity Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		363E19A92E5A58970066587C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM9C55HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ikirsten.PulseOfPositivity-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulseOfPositivity Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PulseOfPositivity Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		363E19AB2E5A58970066587C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM9C55HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ikirsten.PulseOfPositivity-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PulseOfPositivity Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		363E19AC2E5A58970066587C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6MM9C55HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ikirsten.PulseOfPositivity-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PulseOfPositivity Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		363E19742E5A58960066587C /* Build configuration list for PBXProject "PulseOfPositivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363E199E2E5A58970066587C /* Debug */,
+				363E199F2E5A58970066587C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363E19A02E5A58970066587C /* Build configuration list for PBXNativeTarget "PulseOfPositivity Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363E19A12E5A58970066587C /* Debug */,
+				363E19A22E5A58970066587C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363E19A42E5A58970066587C /* Build configuration list for PBXNativeTarget "PulseOfPositivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363E19A52E5A58970066587C /* Debug */,
+				363E19A62E5A58970066587C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363E19A72E5A58970066587C /* Build configuration list for PBXNativeTarget "PulseOfPositivity Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363E19A82E5A58970066587C /* Debug */,
+				363E19A92E5A58970066587C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363E19AA2E5A58970066587C /* Build configuration list for PBXNativeTarget "PulseOfPositivity Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363E19AB2E5A58970066587C /* Debug */,
+				363E19AC2E5A58970066587C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 363E19712E5A58960066587C /* Project object */;
+}
