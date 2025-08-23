@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		363E197E2E5A58960066587C /* PulseOfPositivity Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 363E197D2E5A58960066587C /* PulseOfPositivity Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		363E19BB2E5A59070066587C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 363E19BA2E5A58FE0066587C /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		363E197D2E5A58960066587C /* PulseOfPositivity Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PulseOfPositivity Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		363E198C2E5A58970066587C /* PulseOfPositivity Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PulseOfPositivity Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		363E19962E5A58970066587C /* PulseOfPositivity Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PulseOfPositivity Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		363E19BA2E5A58FE0066587C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -101,6 +103,7 @@
 		363E19702E5A58960066587C = {
 			isa = PBXGroup;
 			children = (
+				363E19BA2E5A58FE0066587C /* .gitignore */,
 				363E19812E5A58960066587C /* PulseOfPositivity Watch App */,
 				363E198F2E5A58970066587C /* PulseOfPositivity Watch AppTests */,
 				363E19992E5A58970066587C /* PulseOfPositivity Watch AppUITests */,
@@ -269,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				363E19BB2E5A59070066587C /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
