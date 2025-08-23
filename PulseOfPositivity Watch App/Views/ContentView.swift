@@ -1,4 +1,5 @@
 import SwiftUI
+import WatchKit
 
 struct ContentView: View {
     @StateObject private var vm: PositiveNoteViewModel
@@ -15,6 +16,7 @@ struct ContentView: View {
                 .padding(.horizontal)
         }
         .task {
+            WKInterfaceDevice.current().play(.notification)
             if vm.note.isEmpty { vm.refresh() }
             scheduleMindfulnessForNextDays()
         }
