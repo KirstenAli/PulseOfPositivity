@@ -3,6 +3,7 @@ import WatchKit
 
 struct ContentView: View {
     @StateObject private var vm: PositiveNoteViewModel
+    @Environment(\.scenePhase) private var scenePhase
     
     init(provider: PositiveNoteProviding = DefaultPositiveNoteProvider()) {
         _vm = StateObject(wrappedValue: PositiveNoteViewModel(provider: provider))
@@ -16,11 +17,20 @@ struct ContentView: View {
                 .padding(.horizontal)
         }
         .task {
-            WKInterfaceDevice.current().play(.notification)
-            if vm.note.isEmpty { vm.refresh() }
+            vm.refresh()
             scheduleMindfulnessForNextDays()
         }
+        .onChange(of: scenePhase) {
+            guard scenePhase == .active else { return }
+            vm.refresh()
+            playNotificationHaptic()
+        }
         .padding()
+    }
+    
+    @MainActor
+    private func playNotificationHaptic() {
+        WKInterfaceDevice.current().play(.notification)
     }
 }
 

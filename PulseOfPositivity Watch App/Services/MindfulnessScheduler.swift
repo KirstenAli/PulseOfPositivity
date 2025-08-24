@@ -45,7 +45,7 @@ private func scheduleDaysAhead(_ days: Int, provider: PositiveNoteProviding) {
         
         let id = notificationID(for: day)
         let note = provider.randomNote()
-        scheduleOneNotification(id: id, fireDate: fireDate, title: "Mindful moment", body: note)
+        scheduleOneNotification(id: id, fireDate: fireDate, title: note, body: "")
     }
 }
 
