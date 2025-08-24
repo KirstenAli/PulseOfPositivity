@@ -1,5 +1,6 @@
 import Combine
 
+@MainActor
 final class PositiveNoteViewModel: ObservableObject {
     @Published var note: String = ""
     private let provider: PositiveNoteProviding
